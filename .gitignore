@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <windows.h>
+#include <time.h>
+
+void function (int *x[10][10], int *kkk){
+    int b,a;
+      for (b = 0; b < 10; b++)
+      for (a = 0; a < 10; a++)
+        x[b][a] = rand() % 256; // sum da gogi erti da igivea ! gogi gevxmareba int sum shi ro daviamxsovrot info! gogi aris pointeri!
+        *kkk += *kkk + x[j][i];
+}
+
+
+int main(){
+int b;
+int a;
+int x[10][10];
+int sum;
+
+  for(b = 0; b < 10; b++)
+      for(a = 0; a < 10; a++)
+        x[b][a] = rand() % 256;
+
+
+       function(x, &sum);
+       printf("%d ",sum );
+
+getchar();
+return 0;
+
+}
